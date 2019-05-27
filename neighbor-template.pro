@@ -25,7 +25,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../gsg-kicad-lib
+LibDir=gsg-kicad-lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
