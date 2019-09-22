@@ -9,10 +9,10 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "GreatFET Neighbor Template"
-Date "2015-09-24"
+Date "2019-09-22"
 Rev ""
-Comp "Copyright 2015 Great Scott Gadgets"
-Comment1 "License: BSD-3-Clause"
+Comp ""
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
