@@ -1,4 +1,0 @@
-[submodule "hardware/gsg-kicad-lib"]
-	path = gsg-kicad-lib
-	url = https://github.com/greatscottgadgets/gsg-kicad-lib.git
-
