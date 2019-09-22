@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name gsg-modules)(type KiCad)(uri ${KIPRJMOD}/gsg-kicad-lib/gsg-modules.pretty)(options "")(descr ""))
+  (lib (name neighbor)(type KiCad)(uri ${KIPRJMOD}/neighbor.pretty)(options "")(descr ""))
 )

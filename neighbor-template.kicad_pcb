@@ -112,7 +112,7 @@
     (add_net VCC)
   )
 
-  (module gsg-modules:HEADER-1x20 (layer F.Cu) (tedit 560071ED) (tstamp 56008D0F)
+  (module neighbor:HEADER-1x20 (layer F.Cu) (tedit 560071ED) (tstamp 56008D0F)
     (at 146.05 76.2)
     (tags CONN)
     (path /560E713A)
@@ -163,7 +163,7 @@
       (net 2 VCC))
   )
 
-  (module gsg-modules:HEADER-2x20 (layer F.Cu) (tedit 4F8A60EE) (tstamp 56008C89)
+  (module neighbor:HEADER-2x20 (layer F.Cu) (tedit 4F8A60EE) (tstamp 56008C89)
     (at 146.05 118.11)
     (tags CONN)
     (path /55FB1D52)
@@ -263,7 +263,7 @@
       (die_length 0.08382))
   )
 
-  (module gsg-modules:HEADER-2x20 (layer F.Cu) (tedit 4F8A60EE) (tstamp 56008CB5)
+  (module neighbor:HEADER-2x20 (layer F.Cu) (tedit 4F8A60EE) (tstamp 56008CB5)
     (at 146.05 72.39)
     (tags CONN)
     (path /55EAB4B7)
@@ -363,7 +363,7 @@
       (die_length 0.08382))
   )
 
-  (module gsg-modules:HOLE126MIL-COPPER (layer F.Cu) (tedit 528F8568) (tstamp 56009D36)
+  (module neighbor:HOLE126MIL-COPPER (layer F.Cu) (tedit 528F8568) (tstamp 56009D36)
     (at 115.57 74.93)
     (path /56010ADB)
     (fp_text reference MH1 (at 0 0) (layer F.SilkS) hide
@@ -392,7 +392,7 @@
       (net 1 GND))
   )
 
-  (module gsg-modules:HOLE126MIL-COPPER (layer F.Cu) (tedit 528F8568) (tstamp 56009D43)
+  (module neighbor:HOLE126MIL-COPPER (layer F.Cu) (tedit 528F8568) (tstamp 56009D43)
     (at 115.57 115.57)
     (path /56010AE9)
     (fp_text reference MH2 (at 0 0) (layer F.SilkS) hide
@@ -421,7 +421,7 @@
       (net 1 GND))
   )
 
-  (module gsg-modules:HOLE126MIL-COPPER (layer F.Cu) (tedit 528F8568) (tstamp 56009D50)
+  (module neighbor:HOLE126MIL-COPPER (layer F.Cu) (tedit 528F8568) (tstamp 56009D50)
     (at 176.53 118.11)
     (path /5600EED5)
     (fp_text reference MH3 (at 0 0) (layer F.SilkS) hide
@@ -450,7 +450,7 @@
       (net 1 GND))
   )
 
-  (module gsg-modules:HOLE126MIL-COPPER (layer F.Cu) (tedit 528F8568) (tstamp 56009D5D)
+  (module neighbor:HOLE126MIL-COPPER (layer F.Cu) (tedit 528F8568) (tstamp 56009D5D)
     (at 176.53 72.39)
     (path /560100F3)
     (fp_text reference MH4 (at 0 0) (layer F.SilkS) hide

@@ -25,6 +25,5 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=gsg-kicad-lib
 [general]
 version=1
