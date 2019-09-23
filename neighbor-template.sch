@@ -841,4 +841,6 @@ Wire Wire Line
 	3000 1850 3300 1850
 Wire Wire Line
 	3000 2250 3000 2200
+Text Notes 4900 950  0    100  ~ 0
+How to Design a Neighbor:\nhttps://github.com/greatscottgadgets/greatfet/wiki/How-to-Design-a-Neighbor
 $EndSCHEMATC
