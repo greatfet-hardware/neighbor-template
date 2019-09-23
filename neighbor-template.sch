@@ -5,7 +5,7 @@ EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
-Title "GreatFET Neighbor Template"
+Title "My Neighbor"
 Date "2019-09-22"
 Rev ""
 Comp ""
