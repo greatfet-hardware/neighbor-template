@@ -31,8 +31,6 @@ F 7 "Alternate: SSQ-120-x3-x-D" H 15450 1850 60  0001 C CNN "Note"
 	1    15450 1850
 	1    0    0    -1  
 $EndComp
-Text Label 15950 950  2    40   ~ 0
-VBUS
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J1
 U 1 1 55FB1D52
@@ -915,4 +913,15 @@ Text Label 14600 8050 2    40   ~ 0
 E2
 Text Label 14600 3800 1    40   ~ 0
 RTCX1
+$Comp
+L power:+5V #PWR?
+U 1 1 5D89879B
+P 15950 950
+F 0 "#PWR?" H 15950 800 50  0001 C CNN
+F 1 "+5V" V 15965 1078 50  0000 L CNN
+F 2 "" H 15950 950 50  0001 C CNN
+F 3 "" H 15950 950 50  0001 C CNN
+	1    15950 950 
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
