@@ -1,8 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:power
-LIBS:74xx
 LIBS:neighbor-template-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
@@ -29,7 +27,7 @@ F 3 "" H 15700 1900 60  0000 C CNN
 F 4 "Samtec" H 15700 2850 60  0001 C CNN "Manufacturer"
 F 5 "SSQ-120-23-G-D" H 15700 2850 60  0001 C CNN "Part Number"
 F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 15700 2850 60  0001 C CNN "Description"
-F 7 "Alternate: https://www.adafruit.com/products/2223" H 15700 2850 60  0001 C CNN "Note"
+F 7 "Alternate: SSQ-120-x3-x-D" H 15700 2850 60  0001 C CNN "Note"
 	1    15700 2850
 	1    0    0    -1  
 $EndComp
@@ -46,7 +44,7 @@ F 3 "" H 15700 4250 60  0000 C CNN
 F 4 "Samtec" H 15700 5200 60  0001 C CNN "Manufacturer"
 F 5 "SSQ-120-23-G-D" H 15700 5200 60  0001 C CNN "Part Number"
 F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 15700 5200 60  0001 C CNN "Description"
-F 7 "Alternate: https://www.adafruit.com/products/2223" H 15700 5200 60  0001 C CNN "Note"
+F 7 "Alternate: SSQ-120-x3-x-D" H 15700 5200 60  0001 C CNN "Note"
 	1    15700 5200
 	1    0    0    -1  
 $EndComp
@@ -435,6 +433,7 @@ F 3 "" H 15150 7000 60  0000 C CNN
 F 4 "Samtec" H 15150 7000 60  0001 C CNN "Manufacturer"
 F 5 "SSQ-120-23-G-S" H 15150 7000 60  0001 C CNN "Part Number"
 F 6 "CONN RCPT .100\" 20POS SINGLE-ROW STACKING GOLD" H 15150 7000 60  0001 C CNN "Description"
+F 7 "Alternate: SSQ-120-x3-x-S" H 15150 7000 50  0001 C CNN "Note"
 	1    15150 7000
 	0    -1   -1   0   
 $EndComp
