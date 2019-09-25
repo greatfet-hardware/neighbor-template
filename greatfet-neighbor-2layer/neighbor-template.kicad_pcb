@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 234)
+    (drawings 235)
     (tracks 75)
     (zones 0)
     (modules 13)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.3048)
+    (last_trace_width 0.2032)
     (user_trace_width 0.3048)
     (user_trace_width 0.508)
     (trace_clearance 0.1524)
@@ -882,6 +882,9 @@
       (net 1 GND))
   )
 
+  (gr_text "for GreatFET" (at 159.05 112.15) (layer F.SilkS) (tstamp 5D8AF785)
+    (effects (font (size 1.524 1.27) (thickness 0.2286)))
+  )
   (gr_line (start 109.6772 98.933) (end 109.728 99.9998) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 109.6264 97.4852) (end 109.6772 98.933) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 109.601 95.5802) (end 109.6264 97.4852) (angle 90) (layer Edge.Cuts) (width 0.15))

@@ -6,10 +6,10 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "My Neighbor"
-Date "2019-09-22"
+Date "2019-09-24"
 Rev ""
 Comp ""
-Comment1 ""
+Comment1 "designed for GreatFET"
 Comment2 ""
 Comment3 ""
 Comment4 ""
