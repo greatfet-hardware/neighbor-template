@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name neighbor)(type KiCad)(uri ${KIPRJMOD}/neighbor.pretty)(options "")(descr ""))
+)
