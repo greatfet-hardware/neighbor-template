@@ -1,0 +1,927 @@
+EESchema Schematic File Version 4
+LIBS:neighbor-template-cache
+EELAYER 30 0
+EELAYER END
+$Descr USLedger 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "My Neighbor"
+Date "2019-09-22"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 15050 1550 0    40   ~ 0
+P2_8
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J2
+U 1 1 55EAB4B7
+P 15450 1850
+F 0 "J2" H 15500 2900 50  0000 C CNN
+F 1 "NEIGHBOR2" V 15500 1850 50  0000 C CNN
+F 2 "neighbor:HEADER-2x20" H 15450 900 60  0001 C CNN
+F 3 "" H 15450 900 60  0000 C CNN
+F 4 "Samtec" H 15450 1850 60  0001 C CNN "Manufacturer"
+F 5 "SSQ-120-23-G-D" H 15450 1850 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 15450 1850 60  0001 C CNN "Description"
+F 7 "Alternate: SSQ-120-x3-x-D" H 15450 1850 60  0001 C CNN "Note"
+	1    15450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J1
+U 1 1 55FB1D52
+P 13750 1850
+F 0 "J1" H 13800 2900 50  0000 C CNN
+F 1 "NEIGHBOR1" V 13800 1850 50  0000 C CNN
+F 2 "neighbor:HEADER-2x20" H 13750 900 60  0001 C CNN
+F 3 "" H 13750 900 60  0000 C CNN
+F 4 "Samtec" H 13750 1850 60  0001 C CNN "Manufacturer"
+F 5 "SSQ-120-23-G-D" H 13750 1850 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 40POS DUAL-ROW STACKING GOLD" H 13750 1850 60  0001 C CNN "Description"
+F 7 "Alternate: SSQ-120-x3-x-D" H 13750 1850 60  0001 C CNN "Note"
+	1    13750 1850
+	1    0    0    -1  
+$EndComp
+Text Label 14250 1050 2    40   ~ 0
+P0_0
+Text Label 13350 1050 0    40   ~ 0
+P4_9
+Text Label 14250 1150 2    40   ~ 0
+P0_1
+Text Label 13350 1150 0    40   ~ 0
+P4_10
+Text Label 14250 1250 2    40   ~ 0
+P5_0
+Text Label 13350 1250 0    40   ~ 0
+P1_0
+Text Label 13350 1350 0    40   ~ 0
+P5_1
+Text Label 14250 1350 2    40   ~ 0
+P1_1
+Text Label 14250 1450 2    40   ~ 0
+P1_2
+Text Label 14250 2850 2    40   ~ 0
+P1_3
+Text Label 14250 1550 2    40   ~ 0
+P5_2
+Text Label 13350 2850 0    40   ~ 0
+P1_4
+Text Label 13350 1550 0    40   ~ 0
+P1_5
+Text Label 14250 1650 2    40   ~ 0
+P1_6
+Text Label 13350 1650 0    40   ~ 0
+P1_7
+Text Label 14250 1750 2    40   ~ 0
+P1_8
+Text Label 13350 1750 0    40   ~ 0
+P1_9
+Text Label 14250 1850 2    40   ~ 0
+P1_10
+Text Label 13350 1850 0    40   ~ 0
+P5_3
+Text Label 14250 1950 2    40   ~ 0
+P1_11
+Text Label 13350 1950 0    40   ~ 0
+P1_12
+Text Label 14250 2050 2    40   ~ 0
+P5_4
+Text Label 13350 2050 0    40   ~ 0
+P5_5
+Text Label 14250 2150 2    40   ~ 0
+P1_13
+Text Label 13350 2150 0    40   ~ 0
+P1_14
+Text Label 14250 2250 2    40   ~ 0
+P1_15
+Text Label 13350 2250 0    40   ~ 0
+P5_6
+Text Label 14250 2350 2    40   ~ 0
+P1_16
+Text Label 13350 2350 0    40   ~ 0
+P5_7
+Text Label 14250 2450 2    40   ~ 0
+P1_17
+Text Label 13350 2450 0    40   ~ 0
+P1_18
+Text Label 14250 2750 2    40   ~ 0
+P1_19
+Text Label 13350 2550 0    40   ~ 0
+P9_5
+Text Label 13350 2750 0    40   ~ 0
+P1_20
+Text Label 14250 2550 2    40   ~ 0
+P9_6
+Text Label 13350 1450 0    40   ~ 0
+CLK0
+Text Label 14250 2650 2    40   ~ 0
+P6_0
+Text Label 13350 2650 0    40   ~ 0
+P2_0
+Text Notes 14300 2850 0    40   ~ 0
+MISO
+Text Notes 13300 2850 2    40   ~ 0
+MOSI
+Text Notes 14300 2750 0    40   ~ 0
+SCK
+Text Notes 13300 2750 2    40   ~ 0
+SSEL
+Text Label 16050 2850 2    40   ~ 0
+I2C0_SCL
+Text Label 14950 2850 0    40   ~ 0
+I2C0_SDA
+Text Label 15950 2650 2    40   ~ 0
+P6_3
+Text Label 15050 2650 0    40   ~ 0
+P2_1
+Text Label 15950 2550 2    40   ~ 0
+P6_6
+Text Label 15050 2550 0    40   ~ 0
+P2_2
+Text Label 15050 2450 0    40   ~ 0
+P6_7
+Text Label 15050 2350 0    40   ~ 0
+P6_8
+Text Label 15950 1850 2    40   ~ 0
+P2_3
+Text Label 15050 1850 0    40   ~ 0
+P2_4
+Text Label 15950 1750 2    40   ~ 0
+P2_5
+Text Label 15050 1650 0    40   ~ 0
+P2_6
+Text Label 15950 1450 2    40   ~ 0
+CLK2
+Text Label 15050 2250 0    40   ~ 0
+P7_0
+Text Label 15950 2150 2    40   ~ 0
+P3_0
+Text Label 15050 2150 0    40   ~ 0
+P7_1
+Text Label 15950 2050 2    40   ~ 0
+P3_1
+Text Label 15050 2050 0    40   ~ 0
+P7_2
+Text Label 15950 1950 2    40   ~ 0
+P3_2
+Text Label 15950 2450 2    40   ~ 0
+P3_3
+Text Label 15950 2250 2    40   ~ 0
+P3_4
+Text Label 15050 1950 0    40   ~ 0
+PF_4
+Text Label 15050 2750 0    40   ~ 0
+P3_5
+Text Label 15950 2750 2    40   ~ 0
+P3_6
+Text Label 15950 2350 2    40   ~ 0
+P3_7
+Text Label 15950 1650 2    40   ~ 0
+P7_7
+Text Label 15950 1050 2    40   ~ 0
+P4_0
+Text Label 15000 1150 0    40   ~ 0
+ADC0_0
+Text Label 15050 1350 0    40   ~ 0
+P4_3
+Text Label 15950 1250 2    40   ~ 0
+P4_2
+Text Label 15050 1250 0    40   ~ 0
+P4_4
+Text Label 15950 1150 2    40   ~ 0
+P4_5
+Text Label 15950 1350 2    40   ~ 0
+P4_6
+Text Label 15050 1450 0    40   ~ 0
+P4_7
+Text Label 15050 1050 0    40   ~ 0
+P4_8
+Text Label 14950 1750 0    40   ~ 0
+WAKEUP0
+Text Label 15950 1550 2    40   ~ 0
+P2_7
+Text Notes 16000 1550 0    40   ~ 0
+ISP
+Text Notes 15000 1550 2    40   ~ 0
+DFU
+Text Notes 14300 1350 0    40   ~ 0
+BOOT
+Text Notes 14300 1450 0    40   ~ 0
+BOOT
+Text Label 15400 3800 1    40   ~ 0
+P6_1
+Text Label 15300 3800 1    40   ~ 0
+P6_2
+Text Label 13800 3800 1    40   ~ 0
+P6_4
+Text Label 13900 3800 1    40   ~ 0
+P6_5
+Text Label 15200 3800 1    40   ~ 0
+P6_9
+Text Label 15100 3800 1    40   ~ 0
+P6_10
+Text Label 14200 3800 1    40   ~ 0
+P2_9
+Text Label 15000 3800 1    40   ~ 0
+P2_10
+Text Label 14900 3800 1    40   ~ 0
+P2_11
+Text Label 14300 3800 1    40   ~ 0
+P2_12
+Text Label 14400 3800 1    40   ~ 0
+P2_13
+Text Notes 14200 4000 1    40   ~ 0
+BOOT
+Wire Wire Line
+	13350 950  13550 950 
+Wire Wire Line
+	14050 950  14250 950 
+Wire Wire Line
+	14250 1050 14050 1050
+Wire Wire Line
+	13350 1050 13550 1050
+Wire Wire Line
+	15050 950  15250 950 
+Wire Wire Line
+	13350 1150 13550 1150
+Wire Wire Line
+	13350 1250 13550 1250
+Wire Wire Line
+	13350 1350 13550 1350
+Wire Wire Line
+	13350 1450 13550 1450
+Wire Wire Line
+	13350 1550 13550 1550
+Wire Wire Line
+	13350 1650 13550 1650
+Wire Wire Line
+	13350 1750 13550 1750
+Wire Wire Line
+	13350 1850 13550 1850
+Wire Wire Line
+	13350 1950 13550 1950
+Wire Wire Line
+	13350 2050 13550 2050
+Wire Wire Line
+	13350 2150 13550 2150
+Wire Wire Line
+	13350 2250 13550 2250
+Wire Wire Line
+	13350 2350 13550 2350
+Wire Wire Line
+	13350 2450 13550 2450
+Wire Wire Line
+	13350 2550 13550 2550
+Wire Wire Line
+	13350 2650 13550 2650
+Wire Wire Line
+	14250 2650 14050 2650
+Wire Wire Line
+	14050 2550 14250 2550
+Wire Wire Line
+	14250 2450 14050 2450
+Wire Wire Line
+	14050 2350 14250 2350
+Wire Wire Line
+	14250 2250 14050 2250
+Wire Wire Line
+	14050 2150 14250 2150
+Wire Wire Line
+	14250 2050 14050 2050
+Wire Wire Line
+	14050 1950 14250 1950
+Wire Wire Line
+	14250 1850 14050 1850
+Wire Wire Line
+	14050 1750 14250 1750
+Wire Wire Line
+	14250 1650 14050 1650
+Wire Wire Line
+	14050 1550 14250 1550
+Wire Wire Line
+	14250 1250 14050 1250
+Wire Wire Line
+	14050 1150 14250 1150
+Wire Wire Line
+	13350 2750 13550 2750
+Wire Wire Line
+	13550 2850 13350 2850
+Wire Wire Line
+	14050 2850 14250 2850
+Wire Wire Line
+	14250 2750 14050 2750
+Wire Wire Line
+	15050 2750 15250 2750
+Wire Wire Line
+	15750 2750 15950 2750
+Wire Wire Line
+	15950 2650 15750 2650
+Wire Wire Line
+	15250 2650 15050 2650
+Wire Wire Line
+	15050 2550 15250 2550
+Wire Wire Line
+	15950 2550 15750 2550
+Wire Wire Line
+	15950 2450 15750 2450
+Wire Wire Line
+	15950 2350 15750 2350
+Wire Wire Line
+	15250 2450 15050 2450
+Wire Wire Line
+	15050 2350 15250 2350
+Wire Wire Line
+	15250 2250 15050 2250
+Wire Wire Line
+	15950 2150 15750 2150
+Wire Wire Line
+	16050 2850 15750 2850
+Wire Wire Line
+	15250 2850 14950 2850
+Wire Wire Line
+	15950 2250 15750 2250
+Wire Wire Line
+	15050 2150 15250 2150
+Wire Wire Line
+	15050 2050 15250 2050
+Wire Wire Line
+	15950 2050 15750 2050
+Wire Wire Line
+	15950 1950 15750 1950
+Wire Wire Line
+	15050 1950 15250 1950
+Wire Wire Line
+	15950 1850 15750 1850
+Wire Wire Line
+	15250 1850 15050 1850
+Wire Wire Line
+	15950 1750 15750 1750
+Wire Wire Line
+	15250 1750 14950 1750
+Wire Wire Line
+	15050 1650 15250 1650
+Wire Wire Line
+	15950 1650 15750 1650
+Wire Wire Line
+	15950 1550 15750 1550
+Wire Wire Line
+	15050 1550 15250 1550
+Wire Wire Line
+	15950 1450 15750 1450
+Wire Wire Line
+	15050 1450 15250 1450
+Wire Wire Line
+	15950 1350 15750 1350
+Wire Wire Line
+	15050 1350 15250 1350
+Wire Wire Line
+	15950 1250 15750 1250
+Wire Wire Line
+	15250 1250 15050 1250
+Wire Wire Line
+	15000 1150 15250 1150
+Wire Wire Line
+	15950 1150 15750 1150
+Wire Wire Line
+	15050 1050 15250 1050
+Wire Wire Line
+	15750 1050 15950 1050
+Wire Wire Line
+	15400 3800 15400 3450
+Wire Wire Line
+	15300 3800 15300 3450
+Wire Wire Line
+	15200 3800 15200 3450
+Wire Wire Line
+	15100 3800 15100 3450
+Wire Wire Line
+	15000 3800 15000 3450
+Wire Wire Line
+	14900 3800 14900 3450
+Wire Wire Line
+	14800 3800 14800 3450
+Wire Wire Line
+	14700 3800 14700 3450
+Wire Wire Line
+	14500 3800 14500 3450
+Wire Wire Line
+	14400 3800 14400 3450
+Wire Wire Line
+	14300 3800 14300 3450
+Wire Wire Line
+	13700 3800 13700 3450
+Wire Wire Line
+	15600 3650 15600 3450
+$Comp
+L Connector_Generic:Conn_01x20 J7
+U 1 1 560E713A
+P 14600 3250
+F 0 "J7" H 14600 4300 50  0000 C CNN
+F 1 "BONUS_ROW" V 14700 3250 50  0000 C CNN
+F 2 "neighbor:HEADER-1x20" H 14600 3250 60  0001 C CNN
+F 3 "" H 14600 3250 60  0000 C CNN
+F 4 "Samtec" H 14600 3250 60  0001 C CNN "Manufacturer"
+F 5 "SSQ-120-23-G-S" H 14600 3250 60  0001 C CNN "Part Number"
+F 6 "CONN RCPT .100\" 20POS SINGLE-ROW STACKING GOLD" H 14600 3250 60  0001 C CNN "Description"
+F 7 "Alternate: SSQ-120-x3-x-S" H 14600 3250 50  0001 C CNN "Note"
+	1    14600 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14200 3800 14200 3450
+Wire Wire Line
+	14100 3800 14100 3450
+Wire Wire Line
+	14000 3800 14000 3450
+Wire Wire Line
+	13900 3800 13900 3450
+Wire Wire Line
+	13800 3800 13800 3450
+Text Label 14100 3800 1    40   ~ 0
+ADC0_2
+Text Label 14000 3800 1    40   ~ 0
+ADC0_5
+Text Label 14800 3800 1    40   ~ 0
+VBAT
+Text Label 14700 3800 1    40   ~ 0
+RESET
+Text Label 14500 3800 1    40   ~ 0
+RTC_ALARM
+Wire Wire Line
+	15500 3800 15500 3450
+Wire Wire Line
+	14600 3800 14600 3450
+Wire Wire Line
+	15750 950  15950 950 
+$Comp
+L power:GND #PWR0101
+U 1 1 5CCB85FA
+P 15050 950
+F 0 "#PWR0101" H 15050 700 50  0001 C CNN
+F 1 "GND" V 15055 822 50  0000 R CNN
+F 2 "" H 15050 950 50  0001 C CNN
+F 3 "" H 15050 950 50  0001 C CNN
+	1    15050 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CCBC71E
+P 13350 950
+F 0 "#PWR0102" H 13350 700 50  0001 C CNN
+F 1 "GND" V 13355 822 50  0000 R CNN
+F 2 "" H 13350 950 50  0001 C CNN
+F 3 "" H 13350 950 50  0001 C CNN
+	1    13350 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5CCC0842
+P 13700 3800
+F 0 "#PWR0103" H 13700 3550 50  0001 C CNN
+F 1 "GND" H 13705 3627 50  0000 C CNN
+F 2 "" H 13700 3800 50  0001 C CNN
+F 3 "" H 13700 3800 50  0001 C CNN
+	1    13700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5CCC8A8A
+P 15500 3800
+F 0 "#PWR0105" H 15500 3550 50  0001 C CNN
+F 1 "GND" H 15505 3627 50  0000 C CNN
+F 2 "" H 15500 3800 50  0001 C CNN
+F 3 "" H 15500 3800 50  0001 C CNN
+	1    15500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 5CCD9196
+P 14250 950
+F 0 "#PWR0106" H 14250 800 50  0001 C CNN
+F 1 "VCC" V 14267 1078 50  0000 L CNN
+F 2 "" H 14250 950 50  0001 C CNN
+F 3 "" H 14250 950 50  0001 C CNN
+	1    14250 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 5CCD9287
+P 15600 3650
+F 0 "#PWR0107" H 15600 3500 50  0001 C CNN
+F 1 "VCC" H 15618 3823 50  0000 C CNN
+F 2 "" H 15600 3650 50  0001 C CNN
+F 3 "" H 15600 3650 50  0001 C CNN
+	1    15600 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5CD13283
+P 15150 7850
+F 0 "#PWR0108" H 15150 7600 50  0001 C CNN
+F 1 "GND" H 15155 7677 50  0000 C CNN
+F 2 "" H 15150 7850 50  0001 C CNN
+F 3 "" H 15150 7850 50  0001 C CNN
+	1    15150 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15150 7750 15150 7850
+Wire Wire Line
+	15550 7450 15950 7450
+Wire Wire Line
+	15550 7350 15950 7350
+Text Label 15950 7350 2    40   ~ 0
+I2C0_SDA
+Text Label 15950 7450 2    40   ~ 0
+I2C0_SCL
+$Comp
+L Memory_EEPROM:M24C02-FMN U1
+U 1 1 5CD480E8
+P 15150 7450
+F 0 "U1" H 15550 7850 50  0000 C CNN
+F 1 "M24C02-FMN6TP" H 15550 7750 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 15150 7800 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf" H 15200 6950 50  0001 C CNN
+	1    15150 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5CD65BB1
+P 13500 6600
+F 0 "#PWR0110" H 13500 6350 50  0001 C CNN
+F 1 "GND" V 13505 6472 50  0000 R CNN
+F 2 "" H 13500 6600 50  0001 C CNN
+F 3 "" H 13500 6600 50  0001 C CNN
+	1    13500 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5CD662DA
+P 13500 7800
+F 0 "#PWR0112" H 13500 7550 50  0001 C CNN
+F 1 "GND" V 13505 7672 50  0000 R CNN
+F 2 "" H 13500 7800 50  0001 C CNN
+F 3 "" H 13500 7800 50  0001 C CNN
+	1    13500 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0113
+U 1 1 5CD6B804
+P 14200 6600
+F 0 "#PWR0113" H 14200 6450 50  0001 C CNN
+F 1 "VCC" V 14217 6728 50  0000 L CNN
+F 2 "" H 14200 6600 50  0001 C CNN
+F 3 "" H 14200 6600 50  0001 C CNN
+	1    14200 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0115
+U 1 1 5CD70E26
+P 14200 7800
+F 0 "#PWR0115" H 14200 7650 50  0001 C CNN
+F 1 "VCC" V 14217 7928 50  0000 L CNN
+F 2 "" H 14200 7800 50  0001 C CNN
+F 3 "" H 14200 7800 50  0001 C CNN
+	1    14200 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:Jumper_3_Bridged12 JP1
+U 1 1 5CDB0AB9
+P 13850 6600
+F 0 "JP1" H 13850 6804 50  0000 C CNN
+F 1 "Jumper_3_Bridged12" H 13850 6713 50  0000 C CNN
+F 2 "neighbor:0603-JUMPER-3-BRIDGED12" H 13850 6600 50  0001 C CNN
+F 3 "~" H 13850 6600 50  0001 C CNN
+	1    13850 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_3_Bridged12 JP3
+U 1 1 5CDB114F
+P 13850 7800
+F 0 "JP3" H 13850 7911 50  0000 C CNN
+F 1 "Jumper_3_Bridged12" H 13850 8002 50  0000 C CNN
+F 2 "neighbor:0603-JUMPER-3-BRIDGED12" H 13850 7800 50  0001 C CNN
+F 3 "~" H 13850 7800 50  0001 C CNN
+	1    13850 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13600 6600 13500 6600
+Wire Wire Line
+	14100 6600 14200 6600
+Wire Wire Line
+	13600 7800 13500 7800
+Wire Wire Line
+	14100 7800 14200 7800
+Text Notes 13600 8950 0    50   ~ 0
+WC is by default pulled up, enabling write protection.\nTo disable write protection temporarily, configure P2_1\n(J2_P35) as GPIO and output low.  To disable write\nprotection permanently, remove R1.
+Wire Wire Line
+	15550 7550 15650 7550
+Text Label 15950 7550 2    40   ~ 0
+P2_1
+$Comp
+L power:VCC #PWR0116
+U 1 1 5CD3B8E8
+P 15650 7950
+F 0 "#PWR0116" H 15650 7800 50  0001 C CNN
+F 1 "VCC" H 15668 8123 50  0000 C CNN
+F 2 "" H 15650 7950 50  0001 C CNN
+F 3 "" H 15650 7950 50  0001 C CNN
+	1    15650 7950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CD3CDF8
+P 15650 7750
+F 0 "R1" H 15720 7796 50  0000 L CNN
+F 1 "10k" H 15720 7705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 15580 7750 50  0001 C CNN
+F 3 "~" H 15650 7750 50  0001 C CNN
+	1    15650 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15650 7600 15650 7550
+Connection ~ 15650 7550
+Wire Wire Line
+	15650 7550 15950 7550
+Wire Wire Line
+	15650 7950 15650 7900
+Wire Wire Line
+	14250 1450 14050 1450
+Wire Wire Line
+	14050 1350 14250 1350
+NoConn ~ 14250 1350
+NoConn ~ 14250 1450
+NoConn ~ 15050 1550
+NoConn ~ 15950 1550
+NoConn ~ 14200 3800
+NoConn ~ 15950 2450
+NoConn ~ 15950 2250
+NoConn ~ 15050 2750
+NoConn ~ 15950 2750
+NoConn ~ 15950 2350
+Text Notes 16000 2450 0    40   ~ 0
+SPIFI_CLK
+Text Notes 16000 2250 0    40   ~ 0
+SPIFI_HOLD
+Text Notes 15000 2750 2    40   ~ 0
+SPIFI_WP
+Text Notes 16000 2750 0    40   ~ 0
+SPIFI_DO
+Text Notes 16000 2350 0    40   ~ 0
+SPIFI_DI
+Text Notes 13450 4400 0    50   ~ 0
+Pins with no-connect flags may affect Azalea (mainboard)\nboot.  Do not use them unless you study Azalea to\nunderstand the consequences.
+Text Notes 13550 700  0    100  ~ 0
+board-to-board connections
+Wire Notes Line
+	12900 4500 16500 4500
+$Comp
+L Connector_Generic:Conn_01x01 MH3
+U 1 1 5600EED5
+P 14900 5150
+F 0 "MH3" H 14850 5250 50  0000 C CNN
+F 1 "MOUNTING_HOLE" V 15000 5150 50  0000 C CNN
+F 2 "neighbor:HOLE126MIL-COPPER" H 14900 5150 60  0001 C CNN
+F 3 "" H 14900 5150 60  0000 C CNN
+F 4 "DNP" H 14900 5150 60  0001 C CNN "Note"
+	1    14900 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14900 5350 14900 5450
+$Comp
+L Connector_Generic:Conn_01x01 MH4
+U 1 1 560100F3
+P 15400 5300
+F 0 "MH4" H 15350 5400 50  0000 C CNN
+F 1 "MOUNTING_HOLE" V 15500 5300 50  0000 C CNN
+F 2 "neighbor:HOLE126MIL-COPPER" H 15400 5300 60  0001 C CNN
+F 3 "" H 15400 5300 60  0000 C CNN
+F 4 "DNP" H 15400 5300 60  0001 C CNN "Note"
+	1    15400 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15400 5500 15400 5600
+$Comp
+L Connector_Generic:Conn_01x01 MH1
+U 1 1 56010ADB
+P 13900 5150
+F 0 "MH1" H 13850 5250 50  0000 C CNN
+F 1 "MOUNTING_HOLE" V 14000 5150 50  0000 C CNN
+F 2 "neighbor:HOLE126MIL-COPPER" H 13900 5150 60  0001 C CNN
+F 3 "" H 13900 5150 60  0000 C CNN
+F 4 "DNP" H 13900 5150 60  0001 C CNN "Note"
+	1    13900 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13900 5350 13900 5450
+$Comp
+L Connector_Generic:Conn_01x01 MH2
+U 1 1 56010AE9
+P 14400 5300
+F 0 "MH2" H 14350 5400 50  0000 C CNN
+F 1 "MOUNTING_HOLE" V 14500 5300 50  0000 C CNN
+F 2 "neighbor:HOLE126MIL-COPPER" H 14400 5300 60  0001 C CNN
+F 3 "" H 14400 5300 60  0000 C CNN
+F 4 "DNP" H 14400 5300 60  0001 C CNN "Note"
+	1    14400 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14400 5500 14400 5600
+$Comp
+L power:GND #PWR0117
+U 1 1 5CCAC262
+P 13900 5450
+F 0 "#PWR0117" H 13900 5200 50  0001 C CNN
+F 1 "GND" H 13905 5277 50  0000 C CNN
+F 2 "" H 13900 5450 50  0001 C CNN
+F 3 "" H 13900 5450 50  0001 C CNN
+	1    13900 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5CCAC28E
+P 14400 5600
+F 0 "#PWR0118" H 14400 5350 50  0001 C CNN
+F 1 "GND" H 14405 5427 50  0000 C CNN
+F 2 "" H 14400 5600 50  0001 C CNN
+F 3 "" H 14400 5600 50  0001 C CNN
+	1    14400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5CCB03B2
+P 14900 5450
+F 0 "#PWR0119" H 14900 5200 50  0001 C CNN
+F 1 "GND" H 14905 5277 50  0000 C CNN
+F 2 "" H 14900 5450 50  0001 C CNN
+F 3 "" H 14900 5450 50  0001 C CNN
+	1    14900 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5CCB44D6
+P 15400 5600
+F 0 "#PWR0120" H 15400 5350 50  0001 C CNN
+F 1 "GND" H 15405 5427 50  0000 C CNN
+F 2 "" H 15400 5600 50  0001 C CNN
+F 3 "" H 15400 5600 50  0001 C CNN
+	1    15400 5600
+	1    0    0    -1  
+$EndComp
+Text Notes 14000 4750 0    100  ~ 0
+mounting holes
+Wire Notes Line
+	12900 5900 16500 5900
+Text Notes 15800 3550 0    50   ~ 0
+J7 is optional
+Text Notes 4900 950  0    100  ~ 0
+How to Design a Neighbor:\nhttps://github.com/greatscottgadgets/greatfet/wiki/How-to-Design-a-Neighbor
+Text Notes 13150 6150 0    100  ~ 0
+neighbor identification EEPROM (optional)
+Wire Notes Line
+	12900 500  12900 9250
+$Comp
+L power:GND #PWR0111
+U 1 1 5DAEFF5F
+P 13500 7200
+F 0 "#PWR0111" H 13500 6950 50  0001 C CNN
+F 1 "GND" V 13505 7072 50  0000 R CNN
+F 2 "" H 13500 7200 50  0001 C CNN
+F 3 "" H 13500 7200 50  0001 C CNN
+	1    13500 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0114
+U 1 1 5DAEFF69
+P 14200 7200
+F 0 "#PWR0114" H 14200 7050 50  0001 C CNN
+F 1 "VCC" V 14217 7328 50  0000 L CNN
+F 2 "" H 14200 7200 50  0001 C CNN
+F 3 "" H 14200 7200 50  0001 C CNN
+	1    14200 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:Jumper_3_Bridged12 JP2
+U 1 1 5DAEFF73
+P 13850 7200
+F 0 "JP2" H 13850 7404 50  0000 C CNN
+F 1 "Jumper_3_Bridged12" H 13850 7313 50  0000 C CNN
+F 2 "neighbor:0603-JUMPER-3-BRIDGED12" H 13850 7200 50  0001 C CNN
+F 3 "~" H 13850 7200 50  0001 C CNN
+	1    13850 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13600 7200 13500 7200
+Wire Wire Line
+	14100 7200 14200 7200
+Wire Wire Line
+	13850 6750 13850 6850
+Wire Wire Line
+	13850 6850 14650 6850
+Wire Wire Line
+	14650 6850 14650 7350
+Wire Wire Line
+	14650 7350 14750 7350
+Wire Wire Line
+	13850 7350 13850 7450
+Wire Wire Line
+	13850 7450 14750 7450
+Wire Wire Line
+	14750 7550 14650 7550
+Wire Wire Line
+	13850 7950 13850 8050
+Wire Wire Line
+	13850 8050 14650 8050
+Wire Wire Line
+	14650 8050 14650 7550
+$Comp
+L power:VCC #PWR0109
+U 1 1 5CD17911
+P 15150 6700
+F 0 "#PWR0109" H 15150 6550 50  0001 C CNN
+F 1 "VCC" H 15167 6873 50  0000 C CNN
+F 2 "" H 15150 6700 50  0001 C CNN
+F 3 "" H 15150 6700 50  0001 C CNN
+	1    15150 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15150 6700 15150 6800
+$Comp
+L Device:C C1
+U 1 1 5DAC2CAD
+P 15400 6800
+F 0 "C1" V 15148 6800 50  0000 C CNN
+F 1 "100nF" V 15239 6800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15438 6650 50  0001 C CNN
+F 3 "~" H 15400 6800 50  0001 C CNN
+	1    15400 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5DB49929
+P 15650 6800
+F 0 "#PWR0121" H 15650 6550 50  0001 C CNN
+F 1 "GND" H 15655 6627 50  0000 C CNN
+F 2 "" H 15650 6800 50  0001 C CNN
+F 3 "" H 15650 6800 50  0001 C CNN
+	1    15650 6800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15550 6800 15650 6800
+Wire Wire Line
+	15250 6800 15150 6800
+Connection ~ 15150 6800
+Wire Wire Line
+	15150 6800 15150 7150
+Text Label 14600 6850 2    40   ~ 0
+E0
+Text Label 14600 7450 2    40   ~ 0
+E1
+Text Label 14600 8050 2    40   ~ 0
+E2
+Text Label 14600 3800 1    40   ~ 0
+RTCX1
+$Comp
+L power:+5V #PWR?
+U 1 1 5D89879B
+P 15950 950
+F 0 "#PWR?" H 15950 800 50  0001 C CNN
+F 1 "+5V" V 15965 1078 50  0000 L CNN
+F 2 "" H 15950 950 50  0001 C CNN
+F 3 "" H 15950 950 50  0001 C CNN
+	1    15950 950 
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
