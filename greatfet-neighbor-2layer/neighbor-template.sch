@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:neighbor-template-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
@@ -924,4 +923,6 @@ F 3 "" H 15950 950 50  0001 C CNN
 	1    15950 950 
 	0    1    1    0   
 $EndComp
+Text Notes 15000 2650 2    40   ~ 0
+~EEPROM_WC
 $EndSCHEMATC
